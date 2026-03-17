@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23199479661",
+    "project_id": "hyperlocal-market-ba481",
+    "storage_bucket": "hyperlocal-market-ba481.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23199479661:android:6ef56c48beb192be3a8c64",
+        "android_client_info": {
+          "package_name": "com.hyperlocal.hyperlocal_market"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWTMth0KMF1G8_GimsQPWZpWOfW4W_uKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

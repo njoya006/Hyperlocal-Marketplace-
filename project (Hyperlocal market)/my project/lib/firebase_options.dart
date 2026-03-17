@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAZ6wQwlLHtUELrVcKgz0AcuhziQ1rVTJw',
-    appId: '1:447983947829:web:9e881f4650baa6fb35217c',
-    messagingSenderId: '447983947829',
-    projectId: 'agriconnect-5796a',
-    authDomain: 'agriconnect-5796a.firebaseapp.com',
-    storageBucket: 'agriconnect-5796a.firebasestorage.app',
-    measurementId: 'G-VVNCDQV6DZ',
+    apiKey: 'AIzaSyArepJ5S-653W7biy3dE5ppWOrzt4X8ivM',
+    appId: '1:23199479661:web:eae4df76698df4fb3a8c64',
+    messagingSenderId: '23199479661',
+    projectId: 'hyperlocal-market-ba481',
+    authDomain: 'hyperlocal-market-ba481.firebaseapp.com',
+    storageBucket: 'hyperlocal-market-ba481.firebasestorage.app',
+    measurementId: 'G-JQS3Y7F6BZ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCKLcyous9diQ_en8eG2yruYlILKHhpojA',
-    appId: '1:447983947829:android:96477bc63a8f83ef35217c',
-    messagingSenderId: '447983947829',
-    projectId: 'agriconnect-5796a',
-    storageBucket: 'agriconnect-5796a.firebasestorage.app',
+    apiKey: 'AIzaSyCWTMth0KMF1G8_GimsQPWZpWOfW4W_uKc',
+    appId: '1:23199479661:android:6ef56c48beb192be3a8c64',
+    messagingSenderId: '23199479661',
+    projectId: 'hyperlocal-market-ba481',
+    storageBucket: 'hyperlocal-market-ba481.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCQvAruSd5C9GC3tDAjxYLFiuipIYNEd50',
-    appId: '1:447983947829:ios:6697f507e4e6762435217c',
-    messagingSenderId: '447983947829',
-    projectId: 'agriconnect-5796a',
-    storageBucket: 'agriconnect-5796a.firebasestorage.app',
+    apiKey: 'AIzaSyCQ3jU2WGoynrRN_xY2ww2DSKmMU-3pRY0',
+    appId: '1:23199479661:ios:816a8689c0274ab73a8c64',
+    messagingSenderId: '23199479661',
+    projectId: 'hyperlocal-market-ba481',
+    storageBucket: 'hyperlocal-market-ba481.firebasestorage.app',
     iosBundleId: 'com.hyperlocal.hyperlocalMarket',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCQvAruSd5C9GC3tDAjxYLFiuipIYNEd50',
-    appId: '1:447983947829:ios:6697f507e4e6762435217c',
-    messagingSenderId: '447983947829',
-    projectId: 'agriconnect-5796a',
-    storageBucket: 'agriconnect-5796a.firebasestorage.app',
+    apiKey: 'AIzaSyCQ3jU2WGoynrRN_xY2ww2DSKmMU-3pRY0',
+    appId: '1:23199479661:ios:816a8689c0274ab73a8c64',
+    messagingSenderId: '23199479661',
+    projectId: 'hyperlocal-market-ba481',
+    storageBucket: 'hyperlocal-market-ba481.firebasestorage.app',
     iosBundleId: 'com.hyperlocal.hyperlocalMarket',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAZ6wQwlLHtUELrVcKgz0AcuhziQ1rVTJw',
-    appId: '1:447983947829:web:184de62f86278fe735217c',
-    messagingSenderId: '447983947829',
-    projectId: 'agriconnect-5796a',
-    authDomain: 'agriconnect-5796a.firebaseapp.com',
-    storageBucket: 'agriconnect-5796a.firebasestorage.app',
-    measurementId: 'G-RB2M6RZXRX',
+    apiKey: 'AIzaSyArepJ5S-653W7biy3dE5ppWOrzt4X8ivM',
+    appId: '1:23199479661:web:5baa63b328ab87a13a8c64',
+    messagingSenderId: '23199479661',
+    projectId: 'hyperlocal-market-ba481',
+    authDomain: 'hyperlocal-market-ba481.firebaseapp.com',
+    storageBucket: 'hyperlocal-market-ba481.firebasestorage.app',
+    measurementId: 'G-XH1SPXBSQM',
   );
+
 }

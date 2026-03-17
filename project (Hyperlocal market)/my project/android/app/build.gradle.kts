@@ -8,6 +8,13 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+// Read local.properties for Mapbox token
+val localProperties = java.util.Properties()
+val localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.inputStream().use { localProperties.load(it) }
+}
+
 android {
     namespace = "com.hyperlocal.hyperlocal_market"
     compileSdk = flutter.compileSdkVersion
@@ -31,6 +38,10 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        
+        // Pass Mapbox token from local.properties to AndroidManifest.xml
+        manifestPlaceholders["MAPBOX_ACCESS_TOKEN"] =
+            localProperties.getProperty("MAPBOX_ACCESS_TOKEN") ?: ""
     }
 
     buildTypes {
